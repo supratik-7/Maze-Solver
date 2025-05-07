@@ -145,7 +145,7 @@ main_frame.pack(fill=tk.BOTH, expand=True)
 # Heading frame
 heading_frame = tk.Frame(main_frame, bg="#212529")
 heading_frame.pack(fill=tk.X, pady=5)
-heading_label = tk.Label(heading_frame, text="Micro-mouse Maze Solver", font=("Helvetica", 20, "bold"), fg="white", bg="#212529")
+heading_label = tk.Label(heading_frame, text="Maze Solver", font=("Helvetica", 20, "bold"), fg="white", bg="#212529")
 heading_label.pack()
 
 control_frame = tk.Frame(main_frame, bg="#f8f9fa", relief=tk.GROOVE, borderwidth=2)
